@@ -62,7 +62,7 @@
 							<div class = "fen_titre">Projet personnel</div>
 							<div class = "fen_contenu fen_contenu_projet">
 								<div class = "projet">
-									<a class = "projet_lien projet1" href = "http://gauthier.cf/mes_sites/gobodrive" target = "_blank">
+									<a class = "projet_lien projet1" href = "mes_sites/gobodrive" target = "_blank">
 										<img class = "projet_img img1" src = "images/gobo_img.png">
 										<div class = "projet_descrip descrip1">
 											<div class = "projet_descrip_titre">Gobo Drive</div>
@@ -85,7 +85,7 @@
 									</script>
 								</div>
 								<div class = "projet">
-									<a class = "projet_lien projet2" href = "http://gauthier.cf/mes_sites/site" target = "_blank">
+									<a class = "projet_lien projet2" href = "mes_sites/site" target = "_blank">
 										<img class = "projet_img img2" src = "images/site_img.png">
 										<div class = "projet_descrip descrip2">
 											<div class = "projet_descrip_titre">Site</div>
@@ -108,7 +108,7 @@
 									</script>
 								</div>
 								<div class = "projet">
-									<a class = "projet_lien projet3" href = "http://gauthier.cf/mes_sites/criptage" target = "_blank">
+									<a class = "projet_lien projet3" href = "mes_sites/criptage" target = "_blank">
 										<img class = "projet_img img3" src = "images/chiffrement_img.png">
 										<div class = "projet_descrip descrip3">
 											<div class = "projet_descrip_titre">Chiffrement</div>
@@ -131,7 +131,7 @@
 									</script>
 								</div>
 								<div class = "projet">
-									<a class = "projet_lien projet4" href = "http://gauthier.cf" target = "_blank">
+									<a class = "projet_lien projet4" href = "menu" target = "_blank">
 										<img class = "projet_img img4" src = "images/menu_img.png">
 										<div class = "projet_descrip descrip4">
 											<div class = "projet_descrip_titre">Menu</div>
