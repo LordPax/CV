@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang = "fr">
 	<head>
 		<title>CV - teddy GAUTHIER</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="design.css">
+		<link rel="stylesheet" type="text/css" href="include/design.css">
+		<script type = "text/javascript" src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type = "text/javascript" src = "include/script.js"></script>
+		<meta name = "viewport" content = "width=divice-width, initial-scale=1.0">
 	</head>
 	<body>
 		<header>
@@ -16,7 +19,7 @@
 					<span class = "info email">teddy.gauthier@outlook.com</span>
 					<span class = "info age">20 ans</span>
 				</div>
-				<img src = "Moi.jpg" class = "info_photo">
+				<img src = "images/Moi.jpg" class = "info_photo">
 			</div>
 		</header>
 		<nav class = "objectif">
@@ -39,14 +42,14 @@
 						<div class = "fen">
 							<div class = "fen_titre">Description</div>
 							<p class = "fen_contenu">
-								Etudiant autodidact, j'aime apprendre de nouvelle chose qui pourront me servir. Je suis actullement à la recherche d'un stage de 10 à 14 semaine dans le domaine du développement informatique. Mon domain de prédilection est le developpement web.
+								Étudiant autodidact, j'aime apprendre de nouvelle chose qui pourront me servir. Je suis actuellement à la recherche d'un stage de 10 à 14 semaines dans le domaine du développement informatique. Mon domaine de prédilection est le développement web.
 							</p>
 						</div>
 						<div class = "fen">
 							<div class = "fen_titre">Competence</div>
 							<p class = "fen_contenu">
 								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, SQL, NodeJS</div>
-								<div class = "fen_sous_contenu"><span class = "important">Font-end :</span> HTML, CSS, JS, Jquery</div>
+								<div class = "fen_sous_contenu"><span class = "important">Font-end :</span> HTML, CSS, JS, jQuery</div>
 								<div class = "fen_sous_contenu"><span class = "important">Serveur Web : </span> Apache, MySQL, PHP</div>
 								<div class = "fen_sous_contenu"><span class = "important">Autre langage :</span> C, C++, Java, Python, Lua, BrainFuck</div>
 								<div class = "fen_sous_contenu"><span class = "important">Logiciel :</span> Git, Github, Gimp, SSH, FileZilla</div>
@@ -55,19 +58,104 @@
 								<div class = "fen_sous_contenu">Préférence pour le developpement back-end</div>
 							</p>
 						</div>
-						<div class = "fen">
+						<div class = "fen" id = "projet">
 							<div class = "fen_titre">Projet personnel</div>
-							<p class = "fen_contenu">
-								en attente
-							</p>
+							<div class = "fen_contenu fen_contenu_projet">
+								<div class = "projet">
+									<a class = "projet_lien projet1" href = "http://gauthier.cf/mes_sites/gobodrive" target = "_blank">
+										<img class = "projet_img img1" src = "images/gobo_img.png">
+										<div class = "projet_descrip descrip1">
+											<div class = "projet_descrip_titre">Gobo Drive</div>
+											<div class = "projet_descrip_contenu">
+												Site créé pendant mes années lycée permettant d'upload des fichiers
+											</div>
+										</div>
+									</a>
+									<script type="text/javascript">
+										$('.descrip1').hide();
+										$('.projet1').mouseover(function(){
+											$('.descrip1').stop().fadeIn(200);
+											// $('.img1').css({'width' : '210px'});
+										});
+
+										$('.projet1').mouseout(function(){
+											$('.descrip1').stop().fadeOut(200);
+											// $('.img1').css({'width' : '200px'});
+										});
+									</script>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet2" href = "http://gauthier.cf/mes_sites/site" target = "_blank">
+										<img class = "projet_img img2" src = "images/site_img.png">
+										<div class = "projet_descrip descrip2">
+											<div class = "projet_descrip_titre">Site</div>
+											<div class = "projet_descrip_contenu">
+												Site mort-né créé pendant mes années lycée permettant de comparer des produits high-tech 
+											</div>
+										</div>
+									</a>
+									<script type="text/javascript">
+										$('.descrip2').hide();
+										$('.projet2').mouseover(function(){
+											$('.descrip2').stop().fadeIn(200);
+											// $('.img1').css({'width' : '210px'});
+										});
+
+										$('.projet2').mouseout(function(){
+											$('.descrip2').stop().fadeOut(200);
+											// $('.img1').css({'width' : '200px'});
+										});
+									</script>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet3" href = "http://gauthier.cf/mes_sites/criptage" target = "_blank">
+										<img class = "projet_img img3" src = "images/chiffrement_img.png">
+										<div class = "projet_descrip descrip3">
+											<div class = "projet_descrip_titre">Chiffrement</div>
+											<div class = "projet_descrip_contenu">
+												Ce qui est important derrière ce projet n'est le site en lui-même mais les fonctions de chiffrement. Le site n'est qu'un cas d'utilisation parmi d'autres
+											</div>
+										</div>
+									</a>
+									<script type="text/javascript">
+										$('.descrip3').hide();
+										$('.projet3').mouseover(function(){
+											$('.descrip3').stop().fadeIn(200);
+											// $('.img1').css({'width' : '210px'});
+										});
+
+										$('.projet3').mouseout(function(){
+											$('.descrip3').stop().fadeOut(200);
+											// $('.img1').css({'width' : '200px'});
+										});
+									</script>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet4" href = "http://gauthier.cf" target = "_blank">
+										<img class = "projet_img img4" src = "images/menu_img.png">
+										<div class = "projet_descrip descrip4">
+											<div class = "projet_descrip_titre">Menu</div>
+											<div class = "projet_descrip_contenu">
+												Juste un site qui recense mes autres sites
+											</div>
+										</div>
+									</a>
+									<script type="text/javascript">
+										$('.descrip4').hide();
+										$('.projet4').mouseover(function(){
+											$('.descrip4').stop().fadeIn(200);
+											// $('.img1').css({'width' : '210px'});
+										});
+
+										$('.projet4').mouseout(function(){
+											$('.descrip4').stop().fadeOut(200);
+											// $('.img1').css({'width' : '200px'});
+										});
+									</script>
+								</div>
+							</div>
 						</div>
-						<!-- <div class = "fen">
-							<div class = "fen_titre">Description</div>
-							<p class = "fen_contenu">
-								
-							</p>
-						</div> -->
-						<div class = "fen">
+						<div class = "fen float">
 							<div class = "fen_titre">Interet</div>
 							<p class = "fen_contenu">
 								A coté de l'informatique je fais du tir a l'arc en compétition depuis 9 ans
