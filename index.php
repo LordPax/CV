@@ -108,7 +108,7 @@
 									</script>
 								</div>
 								<div class = "projet">
-									<a class = "projet_lien projet3" href = "mes_sites/criptage" target = "_blank">
+									<a class = "projet_lien projet3" href = "mes_sites/cryptage" target = "_blank">
 										<img class = "projet_img img3" src = "images/chiffrement_img.png">
 										<div class = "projet_descrip descrip3">
 											<div class = "projet_descrip_titre">Chiffrement</div>
