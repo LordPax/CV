@@ -37,9 +37,9 @@
 				<div class = "corps2">
 					<div class = "main">
 						<div class = "fen">
-							<!-- <div class = "fen_titre">Description</div> -->
+							<div class = "fen_titre">Description</div>
 							<p class = "fen_contenu">
-								Etudiant autodidact, j'aime apprendre de nouvelle chose qui pourront me servir. Je suis actullement à la recherche d'un stage de 10 à 14 semaine dans le domaine du développement informatique.
+								Etudiant autodidact, j'aime apprendre de nouvelle chose qui pourront me servir. Je suis actullement à la recherche d'un stage de 10 à 14 semaine dans le domaine du développement informatique. Mon domain de prédilection est le developpement web.
 							</p>
 						</div>
 						<div class = "fen">
@@ -99,10 +99,10 @@
 				</div>
 			</div>
 		</section>
-		<!--<footer>
-			<div class="large">
-				merde1
+		<footer>
+			<div class = "large centre"> <!-- centre -->
+				CopyLeft aucun droit réserver
 			</div>
-		</footer>-->
+		</footer>
 	</body>
 </html>
