@@ -158,6 +158,14 @@ footer{
 .float{
 	float : left;
 }
+.logo{
+	text-align : center;
+}
+.logo_img{
+	width : 50px;
+	margin-left : 10px;
+	margin-right : 10px;
+}
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;

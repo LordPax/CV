@@ -180,7 +180,10 @@
 						<div class = "fen">
 							<div class = "fen_titre_sec">Contact</div>
 							<p class = "fen_contenu">
-								en attente
+								<div class = "logo">
+									<a class = "" href = "https://github.com/LordPax" target = "_blank"><img class = "logo_img" src ="images/GitHub_logo_light.png"></a>
+									<a class = "" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank"><img class = "logo_img" src ="images/Linkedin_logo.png"></a>
+								</div>
 							</p>
 						</div>
 					</div>
