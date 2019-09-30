@@ -51,7 +51,7 @@
 								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, SQL, NodeJS</div>
 								<div class = "fen_sous_contenu"><span class = "important">Font-end :</span> HTML, CSS, JS, jQuery</div>
 								<div class = "fen_sous_contenu"><span class = "important">Serveur Web : </span> Apache, MySQL, PHP</div>
-								<div class = "fen_sous_contenu"><span class = "important">Autre langage :</span> C, C++, Java, Python, Lua, BrainFuck</div>
+								<div class = "fen_sous_contenu"><span class = "important">Autre langage :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
 								<div class = "fen_sous_contenu"><span class = "important">Logiciel :</span> Git, Github, Gimp, SSH, FileZilla</div>
 								<div class = "fen_sous_contenu"><span class = "important">OS :</span> Linux (pour tout), windaub (juste pour jouer)</div>
 								<div class = "fen_sous_contenu"><span class = "important">Document :</span> MarkDown, LibreOffice, suite office</div>
