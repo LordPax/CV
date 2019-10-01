@@ -73,12 +73,12 @@
 									</a>
 									<script type="text/javascript">
 										$('.descrip1').hide();
-										$('.projet1').mouseover(function(){
+										$('.projet1').mouseover(() => {
 											$('.descrip1').stop().fadeIn(200);
 											// $('.img1').css({'width' : '210px'});
 										});
 
-										$('.projet1').mouseout(function(){
+										$('.projet1').mouseout(() => {
 											$('.descrip1').stop().fadeOut(200);
 											// $('.img1').css({'width' : '200px'});
 										});
@@ -96,12 +96,12 @@
 									</a>
 									<script type="text/javascript">
 										$('.descrip2').hide();
-										$('.projet2').mouseover(function(){
+										$('.projet2').mouseover(() => {
 											$('.descrip2').stop().fadeIn(200);
 											// $('.img1').css({'width' : '210px'});
 										});
 
-										$('.projet2').mouseout(function(){
+										$('.projet2').mouseout(() => {
 											$('.descrip2').stop().fadeOut(200);
 											// $('.img1').css({'width' : '200px'});
 										});
@@ -119,12 +119,12 @@
 									</a>
 									<script type="text/javascript">
 										$('.descrip3').hide();
-										$('.projet3').mouseover(function(){
+										$('.projet3').mouseover(() => {
 											$('.descrip3').stop().fadeIn(200);
 											// $('.img1').css({'width' : '210px'});
 										});
 
-										$('.projet3').mouseout(function(){
+										$('.projet3').mouseout(() => {
 											$('.descrip3').stop().fadeOut(200);
 											// $('.img1').css({'width' : '200px'});
 										});
@@ -142,16 +142,62 @@
 									</a>
 									<script type="text/javascript">
 										$('.descrip4').hide();
-										$('.projet4').mouseover(function(){
+										$('.projet4').mouseover(() => {
 											$('.descrip4').stop().fadeIn(200);
 											// $('.img1').css({'width' : '210px'});
 										});
 
-										$('.projet4').mouseout(function(){
+										$('.projet4').mouseout(() => {
 											$('.descrip4').stop().fadeOut(200);
 											// $('.img1').css({'width' : '200px'});
 										});
 									</script>
+								</div>
+							</div>
+							<div class = "fen_contenu fen_contenu_projet2">
+								<div class = "projet">
+									<a class = "projet_lien projet1" href = "mes_sites/gobodrive" target = "_blank">
+										<img class = "projet_img img1" src = "images/gobo_img.png">
+										<div class = "projet_descrip descrip1">
+											<div class = "projet_descrip_titre">Gobo Drive</div>
+											<div class = "projet_descrip_contenu">
+												Site créé pendant mes années lycée permettant d'upload des fichiers
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet2" href = "mes_sites/site" target = "_blank">
+										<img class = "projet_img img2" src = "images/site_img.png">
+										<div class = "projet_descrip descrip2">
+											<div class = "projet_descrip_titre">Site</div>
+											<div class = "projet_descrip_contenu">
+												Site mort-né créé pendant mes années lycée permettant de comparer des produits high-tech 
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet3" href = "mes_sites/cryptage" target = "_blank">
+										<img class = "projet_img img3" src = "images/chiffrement_img.png">
+										<div class = "projet_descrip descrip3">
+											<div class = "projet_descrip_titre">Chiffrement</div>
+											<div class = "projet_descrip_contenu">
+												Ce qui est important derrière ce projet n'est le site en lui-même mais les fonctions de chiffrement. Le site n'est qu'un cas d'utilisation parmi d'autres
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet4" href = "menu" target = "_blank">
+										<img class = "projet_img img4" src = "images/menu_img.png">
+										<div class = "projet_descrip descrip4">
+											<div class = "projet_descrip_titre">Menu</div>
+											<div class = "projet_descrip_contenu">
+												Juste un site qui recense mes autres sites
+											</div>
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
