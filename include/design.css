@@ -211,7 +211,7 @@ footer{
 		border-bottom-right-radius : 10px;
 		background-color : #FFF;
 		position : static;
-		margin-top : 0;
+		margin-top : 0px;
 		color : #444;
 		padding : 10px;
 		overflow : unset;
@@ -224,6 +224,30 @@ footer{
 		margin-top : 5px;
 		text-align : left;
 		font-size : 16px;
+	}
+	.float{
+		float : none;
+	}
+}
+@media(max-width : 700px){
+	.corps2{
+		display : block;
+	}
+	.main{
+		width : 95%;
+	}
+	.second{
+		width : 95%;
+		background-color : #FFF;
+		color : #444;
+		/*border-top-right-radius : 10px;
+		border-bottom-right-radius : 10px;*/
+	}
+	.fen_titre_sec{
+		color : #444;
+	}
+	.projet{
+		width : 95%;
 	}
 }
 @font-face {
