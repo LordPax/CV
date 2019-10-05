@@ -169,6 +169,9 @@ footer{
 .fen_contenu_projet2{
 	display : none;
 }
+.git2{
+	display : none;
+}
 @media(max-width : 1050px){
 	.large{
 		width : 800px;
@@ -211,7 +214,7 @@ footer{
 		border-bottom-right-radius : 10px;
 		background-color : #FFF;
 		position : static;
-		margin-top : 0;
+		margin-top : 0px;
 		color : #444;
 		padding : 10px;
 		overflow : unset;
@@ -224,6 +227,80 @@ footer{
 		margin-top : 5px;
 		text-align : left;
 		font-size : 16px;
+	}
+	.float{
+		float : none;
+	}
+}
+@media(max-width : 700px){
+	.corps2{
+		display : block;
+		width : 100%;
+	}
+	.main{
+		width : 95%;
+		padding: 2.5%
+	}
+	.second{
+		width : 95%;
+		background-color : rgba(255, 255, 255, 0);
+		color : #444;
+		border-top-right-radius : 0;
+		border-bottom-right-radius : 0;
+		padding: 2.4%
+	}
+	.fen_titre_sec{
+		color : #444;
+	}
+	.projet{
+		width : 95%;
+		height : 100%;
+		background-color : rgba(255, 255, 255, 0);
+		margin-left : 0;
+		margin-right : 0;
+	}
+	.projet_descrip{
+		background-color : rgba(255, 255, 255, 0);
+		height : 100%;
+	}
+	.projet_img{
+		width : 70px;
+		height : 70px;
+		border-radius : 0;
+	}
+	.fen_contenu{
+		padding-left : 10px;
+		padding-right : 10px;
+	}
+	.fen_sous_contenu{
+		margin-left : 10px;
+		margin-right : 10px;
+	}
+	.git1{
+		display : none;
+	}
+	.git2{
+		display : inline;
+	}
+}
+@media(max-width : 540px){
+	.header{
+		padding-bottom : 0;
+		display : block;
+	}
+	header{
+		height : 100%;
+	}
+	.info_perso{
+		width : 250px;
+		margin-right : auto;
+		margin-left : auto;
+	}
+	.info_photo{
+		margin-right : auto;
+		margin-left : auto;
+		margin-top : 15px;
+		
 	}
 }
 @font-face {
