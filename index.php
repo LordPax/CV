@@ -48,9 +48,9 @@
 						<div class = "fen">
 							<div class = "fen_titre">Competence</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, SQL, NodeJS</div>
+								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, SQL, NodeJS, ExpressJS</div>
 								<div class = "fen_sous_contenu"><span class = "important">Font-end :</span> HTML, CSS, JS, jQuery</div>
-								<div class = "fen_sous_contenu"><span class = "important">Serveur Web : </span> Apache, MySQL, PHP</div>
+								<div class = "fen_sous_contenu"><span class = "important">Serveur Web : </span> Apache, MySQL</div>
 								<div class = "fen_sous_contenu"><span class = "important">Autre langage :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
 								<div class = "fen_sous_contenu"><span class = "important">Logiciel :</span> Git, Github, Gimp, SSH, FileZilla</div>
 								<div class = "fen_sous_contenu"><span class = "important">OS :</span> Linux (pour tout), windaub (juste pour jouer)</div>
@@ -227,7 +227,7 @@
 							<div class = "fen_titre_sec">Contact</div>
 							<p class = "fen_contenu">
 								<div class = "logo">
-									<a class = "" href = "https://github.com/LordPax" target = "_blank"><img class = "logo_img" src ="images/GitHub_logo_light.png"></a>
+									<a class = "" href = "https://github.com/LordPax" target = "_blank"><img class = "logo_img git1" src ="images/GitHub_logo_light.png"><img class = "logo_img git2" src ="images/GitHub_logo_dark.png"></a>
 									<a class = "" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank"><img class = "logo_img" src ="images/Linkedin_logo.png"></a>
 								</div>
 							</p>
