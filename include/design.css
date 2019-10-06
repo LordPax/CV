@@ -172,6 +172,13 @@ footer{
 .git2{
 	display : none;
 }
+.lien1{
+	text-decoration : none;
+	color : #FFF;
+}
+.lien1:hover{
+	text-decoration : underline;
+}
 @media(max-width : 1050px){
 	.large{
 		width : 800px;
