@@ -5,7 +5,7 @@ body, html{
 	font-weight : 300;
 	background-color : #EFEFEF;
 	color : #444;
-	font-size : 19px;
+	font-size : 18px;
 	line-height : 21px;
 }
 header{
@@ -20,10 +20,11 @@ footer{
 	margin-top : 20px;
 	color : #FFF;
 	font-size : 13px;
+	display : none;
 }
 .large{
 	/*border : 1px solid black;*/
-	width : 1000px;
+	width : 800px;
 	margin : auto;
 }
 .header{
@@ -57,9 +58,7 @@ footer{
 }
 .corps{
 	background-color : #FFF;
-	margin-top : 20px;
-	/*height : 500px;*/
-	border-radius : 10px;
+	/*margin-top : 20px;*/
 }
 .corps2{
 	display : flex;
@@ -86,8 +85,8 @@ footer{
 }
 .second{
 	width : 30%;
-	background-color : #34495e;
-	color : #FFF;
+	background-color : #FFF;/*34495e*/
+	color : #444;
 	border-top-right-radius : 10px;
 	border-bottom-right-radius : 10px;
 }
@@ -97,7 +96,7 @@ footer{
 	/*text-transform : uppercase;*/
 }
 .fen_titre_sec{
-	color : #FFF;/*34495e*/
+	color : #34495e;/*34495e*/
 }
 .fen_titre{
 	color : #34495e;
@@ -116,44 +115,39 @@ footer{
 	padding-top : 20px;
 	padding-left : 0;
 }
+.fen_contenu_projet{
+	display : none;
+}
+.fen_contenu_projet2{
+	display : block;
+}
 .projet{
-	width : 200px;
-	height : 200px;
-	/*border : 2px solid #95a5a6;*/
-	box-shadow : 0 3px 3px #95a5a6;/*D5D5D5*/
-	border-radius : 10px;
+	width : 95%;
+	height : 100%;
 	margin-left : 15px;
 	margin-bottom : 15px;
-	overflow : hidden;
-	float : left;
 }
 .projet_img{
-	width : 100%;
-	border-radius : 10px;
+	display : none;
 }
 .projet_lien{
 	color : #444;
 	text-decoration : none;
 }
 .projet_descrip{
-	width : 180px;
-	height : 180px;
-	border-radius : 10px;
-	background-color : rgba(0, 0, 0, 0.8);
-	position : relative;
-	margin-top : -204px;
-	color : #FFF;
+	width : 100%;
+	height : 100%;
 	padding : 10px;
-	overflow : auto;
-	/*border : 2px solid #95a5a6;*/
+	color : #444;
 }
 .projet_descrip_titre{
 	text-align : center;
 	font-weight : 400;
 }
 .projet_descrip_contenu{
-	margin-top : 10px;
+	margin-top : 5px;
 	text-align : left;
+	font-size : 16px;
 }
 .float{
 	float : left;
@@ -162,15 +156,10 @@ footer{
 	text-align : center;
 }
 .logo_img{
-	width : 50px;
+	width : 30px;
+	height : 30px;
 	margin-left : 10px;
 	margin-right : 10px;
-}
-.fen_contenu_projet2{
-	display : none;
-}
-.git2{
-	display : none;
 }
 .lien1{
 	text-decoration : none;
@@ -180,139 +169,23 @@ footer{
 	text-decoration : underline;
 }
 .l1{
-	display : block;
-}
-.l2{
 	display : none;
 }
-@media(max-width : 1050px){
-	.large{
-		width : 800px;
-	}
+.l2{
+	display : block;
+}
+.contact{
+	display : flex;
+	margin-bottom : 10px;
+	color : #444;
+}
+.contact_descrip{
+	width : 100%;
+	word-break : break-all;
 }
 @media(max-width : 850px){
 	.large{
-		width : 90%;
-	}
-	.fen_contenu_projet{
-		display : none;
-	}
-	.fen_contenu_projet2{
-		display : block;
-	}
-	.projet{
 		width : 95%;
-		height : 150px;
-		box-shadow : 0 0 0;/*D5D5D5*/
-		border-radius : 10px;
-		margin-bottom : 15px;
-		background-color : #FFF;
-		overflow : unset;
-	}
-	.projet_img{
-		width : 100px;
-		height : 100px;
-		border-radius : 0;
-	}
-	.projet_lien{
-		color : #444;
-		text-decoration : none;
-		display : flex;
-	}
-	.projet_descrip{
-		width : 100%;
-		height : 80px;
-		border-radius : 0;
-		border-top-right-radius : 10px;
-		border-bottom-right-radius : 10px;
-		background-color : #FFF;
-		position : static;
-		margin-top : 0px;
-		color : #444;
-		padding : 10px;
-		overflow : unset;
-	}
-	.projet_descrip_titre{
-		text-align : center;
-		font-weight : 400;
-	}
-	.projet_descrip_contenu{
-		margin-top : 5px;
-		text-align : left;
-		font-size : 16px;
-	}
-	.float{
-		float : none;
-	}
-}
-@media(max-width : 700px){
-	.corps2{
-		display : block;
-		width : 100%;
-	}
-	.main{
-		width : 95%;
-		padding: 2.5%
-	}
-	.second{
-		width : 95%;
-		background-color : rgba(255, 255, 255, 0);
-		color : #444;
-		border-top-right-radius : 0;
-		border-bottom-right-radius : 0;
-		padding: 2.4%
-	}
-	.fen_titre_sec{
-		color : #34495e;
-	}
-	.projet{
-		width : 95%;
-		height : 100%;
-		background-color : rgba(255, 255, 255, 0);
-		margin-left : 0;
-		margin-right : 0;
-	}
-	.projet_descrip{
-		background-color : rgba(255, 255, 255, 0);
-		height : 100%;
-	}
-	.projet_img{
-		width : 70px;
-		height : 70px;
-		border-radius : 0;
-	}
-	.fen_contenu{
-		padding-left : 10px;
-		padding-right : 10px;
-	}
-	.fen_sous_contenu{
-		margin-left : 10px;
-		margin-right : 10px;
-	}
-	.git1{
-		display : none;
-	}
-	.git2{
-		display : inline;
-	}
-}
-@media(max-width : 540px){
-	.header{
-		padding-bottom : 0;
-		display : block;
-	}
-	header{
-		height : 100%;
-	}
-	.info_perso{
-		width : 250px;
-		margin-right : auto;
-		margin-left : auto;
-	}
-	.info_photo{
-		margin-right : auto;
-		margin-left : auto;
-		margin-top : 15px;
 	}
 }
 @font-face {

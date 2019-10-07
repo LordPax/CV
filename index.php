@@ -9,7 +9,12 @@
 	<head>
 		<title>CV - teddy GAUTHIER</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="include/design.css">
+		<?php
+		if (isset($_GET['format']) && !empty($_GET['format']) && $_GET['format'] == 'pdf')
+			echo '<link rel="stylesheet" type="text/css" href="include/design_pdf.css">';
+		else
+			echo '<link rel="stylesheet" type="text/css" href="include/design.css">';
+		?>
 		<script type = "text/javascript" src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script type = "text/javascript" src = "include/script.js"></script>
 		<meta name = "viewport" content = "width=divice-width, initial-scale=1.0">
@@ -47,17 +52,17 @@
 						<div class = "fen">
 							<div class = "fen_titre">Description</div>
 							<p class = "fen_contenu">
-								Étudiant autodidact, j'aime apprendre de nouvelle chose qui pourront me servir. Je suis actuellement à la recherche d'un stage de 10 à 14 semaines dans le domaine du développement informatique. Mon domaine de prédilection est le développement web.
+								Étudiant autodidacte, j'aime apprendre de nouvelle techno. Je suis à la recherche d'un stage de 10 à 14 semaines à compté de début avril 2020 dans le domaine du développement informatique. J'ai une préférence pour le développement web.
 							</p>
 						</div>
 						<div class = "fen">
 							<div class = "fen_titre">Competence</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, SQL, NodeJS (ExpressJS)</div>
-								<div class = "fen_sous_contenu"><span class = "important">Font-end :</span> HTML, CSS, JS, jQuery</div>
-								<div class = "fen_sous_contenu"><span class = "important">Serveur Web : </span> Apache, MySQL</div>
-								<div class = "fen_sous_contenu"><span class = "important">Autre langage :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
-								<div class = "fen_sous_contenu"><span class = "important">Logiciel :</span> Git, Github, Gimp, SSH, FileZilla</div>
+								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, NodeJS (ExpressJS), SQL</div>
+								<div class = "fen_sous_contenu"><span class = "important">Front-end :</span> HTML, CSS, JS, jQuery</div>
+								<div class = "fen_sous_contenu"><span class = "important">Configuration serveur Web : </span> Apache, MySQL</div>
+								<div class = "fen_sous_contenu"><span class = "important">Autre langages :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
+								<div class = "fen_sous_contenu"><span class = "important">Logiciels et outils :</span> Git, Github, Gimp, SSH, FileZilla</div>
 								<div class = "fen_sous_contenu"><span class = "important">OS :</span> Linux (pour tout), windaub (juste pour jouer)</div>
 								<div class = "fen_sous_contenu"><span class = "important">Document :</span> MarkDown, LibreOffice, suite office</div>
 								<div class = "fen_sous_contenu">Préférence pour le developpement back-end</div>
@@ -206,34 +211,44 @@
 								</div>
 							</div>
 						</div>
-						<div class = "fen float">
-							<div class = "fen_titre">Interet</div>
-							<p class = "fen_contenu">
-								A coté de l'informatique je fais du tir a l'arc en compétition depuis 9 ans
-							</p>
-						</div>
 					</div>
 					<div class = "second">
 						<div class = "fen">
 							<div class = "fen_titre_sec">Experience pro</div>
 							<p class = "fen_contenu">
 								<div class = "fen_sous_contenu">Vente d'un site d'annonce en tant que freelance</div>
-								<div class = "fen_sous_contenu">Tentative de lancement de 2 sites web à but lucratif avec un coéquipier (échec)</div>
+								<div class = "fen_sous_contenu">Tentative de lancement de 2 sites web à but lucratif avec un coéquipier</div>
 							</p>
 						</div>
 						<div class = "fen">
-							<div class = "fen_titre_sec">Etude</div>
+							<div class = "fen_titre_sec">Etudes</div>
 							<p class = "fen_contenu">
 								<div class = "fen_sous_contenu">2e année de DUT informatique à Université Paris XIII</div>
 								<div class = "fen_sous_contenu">baccalauréat STI2D</div>
 							</p>
 						</div>
 						<div class = "fen">
+							<div class = "fen_titre_sec">Interet</div>
+							<p class = "fen_contenu">
+								<div class = "fen_sous_contenu">A coté de l'informatique je fais du tir a l'arc en compétition depuis 9 ans</div>
+							</p>
+						</div>
+						<div class = "fen">
 							<div class = "fen_titre_sec">Contact</div>
 							<p class = "fen_contenu">
-								<div class = "logo">
+								<div class = "logo l1">
 									<a class = "" href = "https://github.com/LordPax" target = "_blank"><img class = "logo_img git1" src ="images/GitHub_logo_light.png"><img class = "logo_img git2" src ="images/GitHub_logo_dark.png"></a>
 									<a class = "" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank"><img class = "logo_img" src ="images/Linkedin_logo.png"></a>
+								</div>
+								<div class = "logo l2">
+									<a class = "contact" href = "https://github.com/LordPax" target = "_blank">
+										<img class = "logo_img git2" src ="images/GitHub_logo_dark.png">
+										<div class = "contact_descrip">https://github.com/LordPax</div>
+									</a>
+									<a class = "contact" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank">
+										<img class = "logo_img" src ="images/Linkedin_logo.png">
+										<div class = "contact_descrip">https://www.linkedin.com/in/teddy-gauthier-ab7082167/</div>
+									</a>
 								</div>
 							</p>
 						</div>
@@ -243,7 +258,7 @@
 		</section>
 		<footer>
 			<div class = "large centre"> <!-- centre -->
-				CopyLeft aucun droit réserver | <label class = "lien1" onclick = "window.print();return false;">Imprimer V1</label> | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a>
+				CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a>
 			</div>
 		</footer>
 	</body>
