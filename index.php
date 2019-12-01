@@ -50,15 +50,15 @@
 				<div class = "corps2">
 					<div class = "main">
 						<div class = "fen">
-							<div class = "fen_titre">Description</div>
+							<!-- <div class = "fen_titre">Description</div> -->
 							<p class = "fen_contenu">
-								Étudiant autodidacte, j'aime apprendre de nouvelle techno. Je suis à la recherche d'un stage de 10 à 14 semaines à compté de début avril 2020 dans le domaine du développement informatique. J'ai une préférence pour le développement web.
+								Etudiant qui n'a pas peur d'apprendre de nouvelle techno. Je suis à la recherche d'un stage de 10 à 14 semaines à compté de début avril 2020 dans le domaine du développement informatique. J'ai une préférence pour le développement web.
 							</p>
 						</div>
 						<div class = "fen">
 							<div class = "fen_titre">Competence</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, NodeJS (ExpressJS), SQL</div>
+								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, NodeJS, SQL</div>
 								<div class = "fen_sous_contenu"><span class = "important">Front-end :</span> HTML, CSS, JS, jQuery</div>
 								<div class = "fen_sous_contenu"><span class = "important">Configuration serveur Web : </span> Apache, MySQL</div>
 								<div class = "fen_sous_contenu"><span class = "important">Autre langages :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
@@ -242,7 +242,7 @@
 								</div>
 								<div class = "logo l2">
 									<a class = "contact" href = "https://github.com/LordPax" target = "_blank">
-										<img class = "logo_img git2" src ="images/GitHub_logo_dark.png">
+										<img class = "logo_img git2" src ="images/GitHub_logo_light.png">
 										<div class = "contact_descrip">https://github.com/LordPax</div>
 									</a>
 									<a class = "contact" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank">
@@ -258,7 +258,8 @@
 		</section>
 		<footer>
 			<div class = "large centre"> <!-- centre -->
-				CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">convertir vers pdf</a>
+				<!-- CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">convertir vers pdf</a> -->
+				CopyLeft aucun droit réserver | <label class = "lien1" onclick = "window.print();return false;">Imprimer V1</label> | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a>
 			</div>
 		</footer>
 	</body>

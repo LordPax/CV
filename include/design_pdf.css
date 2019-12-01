@@ -85,10 +85,8 @@ footer{
 }
 .second{
 	width : 30%;
-	background-color : #FFF;/*34495e*/
-	color : #444;
-	border-top-right-radius : 10px;
-	border-bottom-right-radius : 10px;
+	background-color : #34495e;/*FFF*/
+	color : #FFF; /*444*/
 }
 .fen_titre, .fen_titre_sec{
 	font-weight : 400;
@@ -96,7 +94,7 @@ footer{
 	/*text-transform : uppercase;*/
 }
 .fen_titre_sec{
-	color : #34495e;/*34495e*/
+	color : #FFF;/*34495e*/
 }
 .fen_titre{
 	color : #34495e;
@@ -177,7 +175,7 @@ footer{
 .contact{
 	display : flex;
 	margin-bottom : 10px;
-	color : #444;
+	color : #FFF;/*444*/
 }
 .contact_descrip{
 	width : 100%;
