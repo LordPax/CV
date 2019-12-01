@@ -75,7 +75,7 @@
 									<a class = "projet_lien projet1" href = "mes_sites/gobodrive" target = "_blank">
 										<img class = "projet_img img1" src = "images/gobo_img.png">
 										<div class = "projet_descrip descrip1">
-											<div class = "projet_descrip_titre">Gobo Drive</div>
+											<div class = "projet_descrip_titre">Gobo Drive - 2017</div>
 											<div class = "projet_descrip_contenu">
 												Site créé pendant mes années lycée permettant d'upload des fichiers
 											</div>
@@ -98,7 +98,7 @@
 									<a class = "projet_lien projet2" href = "mes_sites/site" target = "_blank">
 										<img class = "projet_img img2" src = "images/site_img.png">
 										<div class = "projet_descrip descrip2">
-											<div class = "projet_descrip_titre">Site</div>
+											<div class = "projet_descrip_titre">Site - 2016</div>
 											<div class = "projet_descrip_contenu">
 												Site mort-né créé pendant mes années lycée permettant de comparer des produits high-tech 
 											</div>
@@ -121,7 +121,7 @@
 									<a class = "projet_lien projet3" href = "mes_sites/cryptage" target = "_blank">
 										<img class = "projet_img img3" src = "images/chiffrement_img.png">
 										<div class = "projet_descrip descrip3">
-											<div class = "projet_descrip_titre">Chiffrement</div>
+											<div class = "projet_descrip_titre">Chiffrement - 2015</div>
 											<div class = "projet_descrip_contenu">
 												Ce qui est important derrière ce projet n'est le site en lui-même mais les fonctions de chiffrement. Le site n'est qu'un cas d'utilisation parmi d'autres
 											</div>
@@ -169,7 +169,7 @@
 									<a class = "projet_lien projet1" href = "mes_sites/gobodrive" target = "_blank">
 										<img class = "projet_img img1" src = "images/gobo_img.png">
 										<div class = "projet_descrip descrip1">
-											<div class = "projet_descrip_titre">Gobo Drive</div>
+											<div class = "projet_descrip_titre">Gobo Drive - 2017</div>
 											<div class = "projet_descrip_contenu">
 												Site créé pendant mes années lycée permettant d'upload des fichiers
 											</div>
@@ -180,7 +180,7 @@
 									<a class = "projet_lien projet2" href = "mes_sites/site" target = "_blank">
 										<img class = "projet_img img2" src = "images/site_img.png">
 										<div class = "projet_descrip descrip2">
-											<div class = "projet_descrip_titre">Site</div>
+											<div class = "projet_descrip_titre">Site - 2016</div>
 											<div class = "projet_descrip_contenu">
 												Site mort-né créé pendant mes années lycée permettant de comparer des produits high-tech 
 											</div>
@@ -191,7 +191,7 @@
 									<a class = "projet_lien projet3" href = "mes_sites/cryptage" target = "_blank">
 										<img class = "projet_img img3" src = "images/chiffrement_img.png">
 										<div class = "projet_descrip descrip3">
-											<div class = "projet_descrip_titre">Chiffrement</div>
+											<div class = "projet_descrip_titre">Chiffrement - 2015</div>
 											<div class = "projet_descrip_contenu">
 												Ce qui est important derrière ce projet n'est le site en lui-même mais les fonctions de chiffrement. Le site n'est qu'un cas d'utilisation parmi d'autres
 											</div>
@@ -216,15 +216,15 @@
 						<div class = "fen">
 							<div class = "fen_titre_sec">Experience pro</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu">Vente d'un site d'annonce en tant que freelance</div>
-								<div class = "fen_sous_contenu">Tentative de lancement de 2 sites web à but lucratif avec un coéquipier</div>
+								<div class = "fen_sous_contenu"><span class = "important">2017</span> - Vente d'un site d'annonce en tant que freelance</div>
+								<div class = "fen_sous_contenu"><span class = "important">2017</span> - Tentative de lancement de 2 sites web à but lucratif avec un coéquipier</div>
 							</p>
 						</div>
 						<div class = "fen">
 							<div class = "fen_titre_sec">Etudes</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu">2e année de DUT informatique à Université Paris XIII</div>
-								<div class = "fen_sous_contenu">baccalauréat STI2D</div>
+								<div class = "fen_sous_contenu"><span class = "important">2018 2020</span> - 2e année de DUT informatique à Université Paris XIII</div>
+								<div class = "fen_sous_contenu"><span class = "important">2017 2018</span> - baccalauréat STI2D</div>
 							</p>
 						</div>
 						<div class = "fen">
@@ -259,7 +259,6 @@
 		<footer>
 			<div class = "large centre"> <!-- centre -->
 				CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">convertir vers pdf</a>
-				<!-- CopyLeft aucun droit réserver | <label class = "lien1" onclick = "window.print();return false;">Imprimer V1</label> | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a> -->
 			</div>
 		</footer>
 	</body>
