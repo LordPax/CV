@@ -258,8 +258,8 @@
 		</section>
 		<footer>
 			<div class = "large centre"> <!-- centre -->
-				<!-- CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">convertir vers pdf</a> -->
-				CopyLeft aucun droit réserver | <label class = "lien1" onclick = "window.print();return false;">Imprimer V1</label> | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a>
+				CopyLeft aucun droit réserver | <a class = "lien1" href = "monCV.pdf">convertir vers pdf</a>
+				<!-- CopyLeft aucun droit réserver | <label class = "lien1" onclick = "window.print();return false;">Imprimer V1</label> | <a class = "lien1" href = "monCV.pdf">Imprimer V2</a> -->
 			</div>
 		</footer>
 	</body>
