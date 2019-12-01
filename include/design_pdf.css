@@ -24,7 +24,7 @@ footer{
 }
 .large{
 	/*border : 1px solid black;*/
-	width : 800px;
+	width : 800px; /*800*/
 	margin : auto;
 }
 .header{
@@ -187,6 +187,9 @@ footer{
 @media(max-width : 850px){
 	.large{
 		width : 95%;
+	}
+	.large2{
+		width : 100%;
 	}
 	body, html{
 		background-color : #FFF;

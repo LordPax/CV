@@ -38,7 +38,7 @@
 			</div>
 		</nav>
 		<section>
-			<div class="large corps">
+			<div class="large large2 corps">
 				<!-- <div class = "top">
 					<div class = "fen">
 						<div class = "fen_titre">Description</div>
@@ -238,7 +238,7 @@
 							<p class = "fen_contenu">
 								<div class = "logo l1">
 									<a class = "" href = "https://github.com/LordPax" target = "_blank"><img class = "logo_img git1" src ="images/GitHub_logo_light.png"><img class = "logo_img git2" src ="images/GitHub_logo_dark.png"></a>
-									<a class = "" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank"><img class = "logo_img" src ="images/Linkedin_logo.png"></a>
+									<a class = "" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank"><img class = "logo_img" src ="images/Linkedin_logo_light.png"></a>
 								</div>
 								<div class = "logo l2">
 									<a class = "contact" href = "https://github.com/LordPax" target = "_blank">
@@ -246,7 +246,7 @@
 										<div class = "contact_descrip">https://github.com/LordPax</div>
 									</a>
 									<a class = "contact" href = "https://www.linkedin.com/in/teddy-gauthier-ab7082167/" target = "_blank">
-										<img class = "logo_img" src ="images/Linkedin_logo.png">
+										<img class = "logo_img" src ="images/Linkedin_logo_light.png">
 										<div class = "contact_descrip">https://www.linkedin.com/in/teddy-gauthier-ab7082167/</div>
 									</a>
 								</div>
