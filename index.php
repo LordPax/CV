@@ -34,7 +34,7 @@
 		</header>
 		<nav class = "objectif">
 			<div class = "large">
-				<span class = "important">Objectif : </span>Stage de développement informatique
+				<span class = "important">Objectif : </span>Stage de développement informatique de 10 à 12 semaines
 			</div>
 		</nav>
 		<section>
@@ -50,26 +50,19 @@
 				<div class = "corps2">
 					<div class = "main">
 						<div class = "fen">
-							<!-- <div class = "fen_titre">Description</div> -->
+							<div class = "fen_titre">Competences</div>
 							<p class = "fen_contenu">
-								Etudiant qui n'a pas peur d'apprendre de nouvelle techno. Je suis à la recherche d'un stage de 10 à 14 semaines à compté de début avril 2020 dans le domaine du développement informatique. J'ai une préférence pour le développement web.
-							</p>
-						</div>
-						<div class = "fen">
-							<div class = "fen_titre">Competence</div>
-							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, NodeJS, SQL</div>
+								<div class = "fen_sous_contenu"><span class = "important">Back-end :</span> PHP, NodeJS, ExpressJS, SQL</div>
 								<div class = "fen_sous_contenu"><span class = "important">Front-end :</span> HTML, CSS, JS, jQuery</div>
 								<div class = "fen_sous_contenu"><span class = "important">Configuration serveur Web : </span> Apache, MySQL</div>
 								<div class = "fen_sous_contenu"><span class = "important">Autre langages :</span> C, C++, Java, Bash, Python, Lua, BrainFuck</div>
-								<div class = "fen_sous_contenu"><span class = "important">Logiciels et outils :</span> Git, Github, Gimp, SSH, FileZilla</div>
+								<div class = "fen_sous_contenu"><span class = "important">Logiciels et outils :</span> Git, SSH, Vim, Github, Gimp, FileZilla</div>
 								<div class = "fen_sous_contenu"><span class = "important">OS :</span> Linux (pour tout), windaub (juste pour jouer)</div>
 								<div class = "fen_sous_contenu"><span class = "important">Document :</span> MarkDown, LibreOffice, suite office</div>
-								<div class = "fen_sous_contenu">Préférence pour le developpement back-end</div>
 							</p>
 						</div>
 						<div class = "fen" id = "projet">
-							<div class = "fen_titre">Projet personnel</div>
+							<div class = "fen_titre">Projets personnel</div>
 							<div class = "fen_contenu fen_contenu_projet">
 								<div class = "projet">
 									<a class = "projet_lien projet1" href = "mes_sites/gobodrive" target = "_blank">
@@ -176,7 +169,7 @@
 										</div>
 									</a>
 								</div>
-								<div class = "projet">
+								<div class = "projet suppre">
 									<a class = "projet_lien projet2" href = "mes_sites/site" target = "_blank">
 										<img class = "projet_img img2" src = "images/site_img.png">
 										<div class = "projet_descrip descrip2">
@@ -210,6 +203,29 @@
 									</a>
 								</div>
 							</div>
+							<div class = "fen_titre fen_titre_projet2">Projets IUT</div>
+							<div class = "fen_contenu fen_contenu_projet2">
+								<div class = "projet">
+									<a class = "projet_lien projet1" href = "https://github.com/riiswa/OrchaLang-Editor" target = "_blank">
+										<div class = "projet_descrip descrip1">
+											<div class = "projet_descrip_titre">Orcha-Lang editor</div>
+											<div class = "projet_descrip_contenu">
+												Projet de S3 fait avec mon équipe
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class = "projet">
+									<a class = "projet_lien projet1" href = "https://github.com/LordPax/ProjetJava" target = "_blank">
+										<div class = "projet_descrip descrip1">
+											<div class = "projet_descrip_titre">BroLord Chess</div>
+											<div class = "projet_descrip_contenu">
+												Petit projet de S2
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class = "second">
@@ -217,13 +233,12 @@
 							<div class = "fen_titre_sec">Experience pro</div>
 							<p class = "fen_contenu">
 								<div class = "fen_sous_contenu"><span class = "important">2017</span> - Vente d'un site d'annonce en tant que freelance</div>
-								<div class = "fen_sous_contenu"><span class = "important">2017</span> - Tentative de lancement de 2 sites web à but lucratif avec un coéquipier</div>
 							</p>
 						</div>
 						<div class = "fen">
 							<div class = "fen_titre_sec">Etudes</div>
 							<p class = "fen_contenu">
-								<div class = "fen_sous_contenu"><span class = "important">2018 2020</span> - 2e année de DUT informatique à Université Paris XIII</div>
+								<div class = "fen_sous_contenu"><span class = "important">2018 2020</span> - 2e année de DUT informatique à Université Sorbonne Paris Nord </div>
 								<div class = "fen_sous_contenu"><span class = "important">2017 2018</span> - baccalauréat STI2D</div>
 							</p>
 						</div>
